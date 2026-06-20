@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tabi — We Are Coming Soon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Pacifico&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --green: #2c4d3d;
+      --lime: #d8f95e;
+      --cream: #f4f1e8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      background: var(--green);
+      color: var(--cream);
+      font-family: 'Baloo 2', sans-serif;
+      overflow: hidden;
+    }
+
+    .page {
+      position: relative;
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background-size: cover;
+      background-image: url("Pre Launch Web.png");
+    }
+
+    /* ---------- Mobile / narrow layout ---------- */
+    @media (max-width: 720px) {
+      .page {
+        background-image: url("Pre Launch Mobile.png");
+      }
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="page"></div>
+
+  </div>
+
+</body>
+
+</html>
